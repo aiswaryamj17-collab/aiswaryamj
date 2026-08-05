@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
-import { ArrowDown, Download, Github, Linkedin, Mail, Terminal, UserRound } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail, Terminal } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
 import { Typewriter } from "./Typewriter";
+import profileAsset from "@/assets/profile.png.asset.json";
 
 const codeLines = [
   { text: "const dev = {", color: "text-accent" },
