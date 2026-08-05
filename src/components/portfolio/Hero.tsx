@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
-import { ArrowDown, Download, Github, Linkedin, Mail, Terminal, UserRound } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail, Terminal } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
 import { Typewriter } from "./Typewriter";
+import profileAsset from "@/assets/profile.png.asset.json";
 
 const codeLines = [
   { text: "const dev = {", color: "text-accent" },
@@ -25,13 +26,13 @@ export function Hero() {
         >
           <div className="relative animate-float">
             <div className="absolute -inset-3 rounded-full opacity-60 blur-2xl [background-image:var(--gradient-hero)]" />
-            <div className="relative grid h-36 w-36 place-items-center overflow-hidden rounded-full border border-[var(--glass-border)] bg-surface-2 sm:h-44 sm:w-44">
-              <UserRound className="h-16 w-16 text-muted-foreground" aria-hidden />
-              <span className="sr-only">Profile photo placeholder</span>
+            <div className="relative h-36 w-36 overflow-hidden rounded-full border border-[var(--glass-border)] bg-surface-2 sm:h-44 sm:w-44">
+              <img
+                src={profileAsset.url}
+                alt="Aiswarya M J profile photo"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full glass px-3 py-1 text-[10px] uppercase tracking-widest text-muted-foreground">
-              photo coming soon
-            </span>
           </div>
         </motion.div>
 
