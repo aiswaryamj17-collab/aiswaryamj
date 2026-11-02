@@ -18,7 +18,7 @@ const badges = [
   },
   {
     icon: Award,
-    title: "Design Execom Member of ASME",
+    title: "Design Execom Member of ASME MACE",
     subtitle: "ASME student community",
     accent: "var(--cyan)",
   },
@@ -29,15 +29,13 @@ export function Communities() {
     <section id="communities" className="mx-auto max-w-4xl scroll-mt-28 px-5 py-20">
       <SectionHeading eyebrow="guilds joined" title="Communities" icon={<ShieldCheck size={12} />} />
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {badges.map((badge, i) => (
           <Reveal key={badge.title} direction="scale" delay={i * 0.12}>
             <motion.div
               whileHover={{ y: -8, rotate: i % 2 ? 1 : -1 }}
               transition={{ type: "spring", stiffness: 280, damping: 18 }}
-              className={`glass group relative h-full overflow-hidden rounded-[1.75rem] p-6 text-center ${
-                i === 2 ? "sm:col-span-2 sm:mx-auto sm:w-1/2" : ""
-              }`}
+              className="glass group relative h-full overflow-hidden rounded-[1.75rem] p-6 text-center"
             >
               <span
                 className="absolute inset-x-0 -top-24 h-40 opacity-30 blur-3xl transition-opacity group-hover:opacity-60"
