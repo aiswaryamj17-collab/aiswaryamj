@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Cpu, PenTool, ShieldCheck } from "lucide-react";
+import { Award, Cpu, PenTool, ShieldCheck } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
@@ -16,6 +16,12 @@ const badges = [
     subtitle: "Design community · visual craft",
     accent: "var(--purple)",
   },
+  {
+    icon: Award,
+    title: "Design ExCom Member, ASME Club",
+    subtitle: "ASME student community",
+    accent: "var(--cyan)",
+  },
 ];
 
 export function Communities() {
@@ -23,7 +29,7 @@ export function Communities() {
     <section id="communities" className="mx-auto max-w-4xl scroll-mt-28 px-5 py-20">
       <SectionHeading eyebrow="guilds joined" title="Communities" icon={<ShieldCheck size={12} />} />
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {badges.map((badge, i) => (
           <Reveal key={badge.title} direction="scale" delay={i * 0.12}>
             <motion.div

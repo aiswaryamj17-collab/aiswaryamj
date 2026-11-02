@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowDown, Download, Github, Linkedin, Mail, Terminal } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Terminal } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
 import { Typewriter } from "./Typewriter";
 import profileAsset from "@/assets/profile.png.asset.json";
@@ -60,10 +60,7 @@ export function Hero() {
           </p>
 
           <div className="mt-9 flex flex-wrap justify-center gap-3 lg:justify-start">
-            <MagneticButton href="/resume.pdf" variant="primary">
-              <Download size={16} /> Download Resume
-            </MagneticButton>
-            <MagneticButton href="mailto:aiswaryamj17@gmail.com" variant="sun">
+            <MagneticButton href="#contact" variant="sun">
               <Mail size={16} /> Contact Me
             </MagneticButton>
             <MagneticButton href="https://github.com/aiswaryamj17-collab" variant="ghost">
