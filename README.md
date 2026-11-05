@@ -4,13 +4,9 @@
 
 I do NOT want a generic portfolio.
 
-The UI/UX should be heavily INSPIRED by Codédex (https://www.codedex.io/home), but should NOT copy their branding, artwork, or assets.
-
 Think of it as:
 
-"Codédex × Modern Engineering Portfolio × Apple-level polish"
-
-The website should immediately impress recruiters, internship reviewers, and other engineering students.
+"Modern Engineering Portfolio × Apple-level polish"
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 GENERAL DESIGN STYLE
@@ -55,6 +51,8 @@ Everything should feel alive.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DESIGN INSPIRATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The UI/UX should be INSPIRED by Codédex (https://www.codedex.io/home), but should NOT copy their branding, artwork, or assets.
 
 Take inspiration from Codédex in terms of:
 
