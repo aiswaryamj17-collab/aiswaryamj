@@ -1,6 +1,12 @@
 # Aiswarya_M_J_Portfolio
 
-# Build me a premium, interactive, single-page personal portfolio website.
+This project was built with [Lovable](https://lovable.dev).
+
+**Live app**: https://aiswaryamj.lovable.app
+
+prompt that helped me achieve my output: 
+
+Build me a premium, interactive, single-page personal portfolio website.
 
 I do NOT want a generic portfolio.
 
