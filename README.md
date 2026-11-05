@@ -1,4 +1,4 @@
-# Aiswaryamj
+# Aiswarya_M_J_Portfolio
 
 # Build me a premium, interactive, single-page personal portfolio website.
 
